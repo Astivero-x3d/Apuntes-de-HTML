@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>HTML5 - FORMULARIO TRABAJA CON NOSOTROS</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+    <body>
+        <main>
+            <section>
+                <article>
+                    <h2>TRABAJA CON NOSOTROS</h2>
+                    <form action="#" method="post">
+                        <label for="radio">Selecciona género:</label>
+                        <br>
+                        <input type="radio" name="grupo" id="masculino"> masculino
+                        <br>
+                        <input type="radio" name="grupo" id="femenino"> femenino
+                        <br>
+                        <input type="radio" name="grupo" id="otro"> otro
+                        <br><br>
+                        <label for="datalist">Selecciona tu navegador favorito:</label>
+                        <br>
+                        <input list="navegadores">
+                        <datalist id="navegadores">
+                            <option value="Firefox"></option>
+                            <option value="Opera"></option>
+                            <option value="Chrome"></option>
+                            <option value="Safari"></option>
+                            <option value="Edge"></option>
+                        </datalist>
+                        <br><br>
+                        <label for="cumple">Fecha de tu cumpleaños:</label>
+                        <br>
+                        <input type="datetime-local" name="datetime" id="datetime">
+                        <br><br>
+                        <label for="multiplo3">Selecciona tu múltiplo de 3:</label><br>
+                        <input type="number" name="multiplo3" id="multiplo3" min="3" max="100" step="3">
+                        <br><br>
+                        <label for="rango">¿Cómo de guap@ eres?</label>
+                        <br>
+                        <input type="range" name="guapo" id="guapo" min="0" max="10">
+                        <br><br>
+                        <label for="semana">Selecciona tu semana de vacaciones:</label>
+                        <br>
+                        <input type="week" name="semana" id="semana">
+                        <br><br>
+                        <label for="cv">Envíanos tu currículum:</label>
+                        <br>
+                        <input type="file" name="fichero" id="fichero">
+                        <br><br>
+                        <input type="submit" value="Enviar">
+                        <br><br><br><br>
+                    </form>
+                </article>
+            </section>
+        </main>
+    </body>
+</html>
